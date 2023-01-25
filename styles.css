@@ -32,6 +32,7 @@ header {
 }
 
 .signup {
+  background-color: black;
   padding-bottom: 3rem;
   position: relative;
 }
