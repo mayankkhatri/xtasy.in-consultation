@@ -302,6 +302,132 @@ justify-content: space-around;
   
 }
 
+/* Payments page */
+
+#checkout{
+  margin-top: 3rem;
+}
+.price-card {
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  text-align: center;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  width: 90vw;
+  border: 0.05rem solid #f9d3c2;
+  border-radius: 1rem;
+}
+
+.price-card h4 {
+  color: #4d4d4f;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.price-card h6 {
+  font-size: 1rem;
+  color: #79797b;
+  margin: 1rem 0;
+  text-align: justify;
+}
+
+.price-card h3 {
+  font-family: "roboto", sans-serif;
+}
+.original {
+  text-decoration: line-through;
+  margin: 0 0.5rem;
+  font-size: 1.2rem;
+  color: #79797b;
+}
+
+.sale {
+  font-size: 3.3rem;
+  color: #4d4d4f;
+}
+
+.space {
+  padding: 0.12rem;
+}
+
+.originalprice,
+.saleprice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.save {
+  padding: 0.35rem;
+  border-radius: 1rem;
+  background-color: #f9d3c2;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin: 0 0.5rem;
+}
+
+.winter {
+  font-size: 0.7rem;
+  animation: color-animation 5s ease infinite;
+}
+
+.link-cart {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.hurry {
+  font-size: 1rem;
+  font-weight: 600;
+  animation: color-animation-text 3s ease infinite;
+}
+
+@keyframes color-animation-text {
+  0% {
+    color: #4d4d4f;
+  }
+
+  50% {
+    color: #f9d3c2;
+  }
+
+  100% {
+    color: #4d4d4f;
+  }
+}
+
+@keyframes color-animation {
+  0% {
+    color: #4d4d4f;
+    background-color: #f9d3c2;
+  }
+
+  50% {
+    color: #f9d3c2;
+    background-color: #4d4d4f;
+  }
+
+  100% {
+    color: #4d4d4f;
+    background-color: #f9d3c2;
+  }
+}
+.link-details {
+  font-size: 1.5rem;
+  color: #f9d3c2;
+  font-weight: 400;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.165rem solid #f9d3c2;
+  padding: 1.2rem;
+  border-radius: 3.2rem;
+  margin: 1rem;
+  margin-bottom: 1.7rem;
+  text-align: center;
+}
+
 
 @media only screen and (min-width: 768px) { 
   .signup-text{
